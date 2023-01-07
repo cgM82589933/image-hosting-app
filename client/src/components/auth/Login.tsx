@@ -42,11 +42,11 @@ function Login() {
                     </div>
                     <form noValidate onSubmit={handleSubmit}>
                         <div className="input-field col s12">
-                            <input onChange={handleChange} value={form.email} error={errors.email} id="email" type="eamil" />
+                            <input onChange={handleChange} value={form.email} id="email" type="eamil" />
                             <label htmlFor="email">Email</label>
                         </div>
                         <div className="input-field col s12">
-                            <input onChange={handleChange} value={form.password} error={errors.password} id="password" type="password" />
+                            <input onChange={handleChange} value={form.password} id="password" type="password" />
                             <label htmlFor="password">Password</label>
                         </div>
                         <div className="col s12" style={{ paddingLeft: "11.25px" }}>

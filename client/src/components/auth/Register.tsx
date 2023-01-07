@@ -53,7 +53,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.username}
-                                error={errors.username}
                                 id="name"
                                 type="text"
                             />
@@ -63,7 +62,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.firstName}
-                                error={errors.firstName}
                                 id="firstName"
                                 type="text"
                             />
@@ -73,7 +71,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.lastName}
-                                error={errors.lastName}
                                 id="lastName"
                                 type="text"
                             />
@@ -83,7 +80,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.email}
-                                error={errors.email}
                                 id="email"
                                 type="email"
                             />
@@ -93,7 +89,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.password}
-                                error={errors.password}
                                 id="password"
                                 type="password"
                             />
@@ -103,7 +98,6 @@ function Register() {
                             <input
                                 onChange={handleChange}
                                 value={form.passwordVer}
-                                error={errors.passwordVer}
                                 id="passwordVer"
                                 type="password"
                             />
