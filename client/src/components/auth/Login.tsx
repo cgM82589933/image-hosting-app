@@ -42,7 +42,7 @@ function Login() {
                     </div>
                     <form noValidate onSubmit={handleSubmit}>
                         <div className="input-field col s12">
-                            <input onChange={handleChange} value={form.email} id="email" type="eamil" />
+                            <input onChange={handleChange} value={form.email} id="email" type="email" />
                             <label htmlFor="email">Email</label>
                         </div>
                         <div className="input-field col s12">
@@ -50,7 +50,16 @@ function Login() {
                             <label htmlFor="password">Password</label>
                         </div>
                         <div className="col s12" style={{ paddingLeft: "11.25px" }}>
-                            <button style={{ paddingLeft: "11.25px" }} className="btn btn-large waves-effect waves-light hoverable blue accent-3" type="submit">
+                            <button
+                                style={{
+                                    width: "150px",
+                                    borderRadius: "3px",
+                                    letterSpacing: "1.5px",
+                                    marginTop: "1rem"
+                                }}
+                                className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                                type="submit"
+                            >
                                 Login
                             </button>
                         </div>

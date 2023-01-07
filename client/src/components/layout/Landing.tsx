@@ -16,7 +16,7 @@ function Landing() {
                 <br />
                 <div className="col s6">
                     <Link
-                        to="/register"
+                        to="/login"
                         style={{
                             width: "140px",
                             borderRadius: "3px",
@@ -25,6 +25,19 @@ function Landing() {
                         className="btn btn-large waves-effect waves-light hoverable blue accent-3"
                     >
                         Login
+                    </Link>
+                </div>
+                <div className="col s6">
+                    <Link
+                        to="/register"
+                        style={{
+                            width: "140px",
+                            borderRadius: "3px",
+                            letterSpacing: "1.5px"
+                        }}
+                        className="btn btn-large waves-effect waves-light hoverable white black-text accent-3"
+                    >
+                        Register
                     </Link>
                 </div>
             </div>
